@@ -77,9 +77,12 @@
       <DependentUpon>FormGame.cs</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
+    <Compile Include="GameUIHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResultManager.cs" />
     <Compile Include="WordChecker.cs" />
+    <Compile Include="WordGenerator.cs" />
     <Compile Include="WordPlacer.cs" />
     <EmbeddedResource Include="FormResult.resx">
       <DependentUpon>FormResult.cs</DependentUpon>
@@ -118,22 +121,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="OsetWords.txt">
+    <Content Include="Resourses\OsetWords.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="OsetWordsTranslate.txt">
+    <Content Include="Resourses\OsetWordsTranslate.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ProbWords.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Results.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="RusWords.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Words.txt">
+    <Content Include="Resourses\Results.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
